@@ -1,0 +1,6 @@
+---
+- name: patch servers
+  hosts: all
+  tasks:
+    - name: Echo
+      shell: /bin/echo -e "ganesh `date` \n" >> /tmp/oppp
